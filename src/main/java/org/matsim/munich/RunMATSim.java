@@ -9,7 +9,7 @@ import org.matsim.core.scenario.ScenarioUtils;
 public class RunMATSim {
 
     public static void main(String[] args) {
-        Config config = ConfigUtils.loadConfig("scenarios/munich/config.xml");
+        Config config = ConfigUtils.loadConfig("scenarios/munich/input/config.xml");
 
         Scenario scenario = ScenarioUtils.loadScenario(config) ;
 
